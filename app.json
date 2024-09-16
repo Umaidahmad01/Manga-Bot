@@ -14,20 +14,32 @@
     "env": {
         "API_ID": {
             "description": "Get this value from https://my.telegram.org/apps",
-            "value": "",
+            "value": "20718334",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org/apps",
-            "value": "",
+            "value": "4e81464b29d79c58d0ad8a0c55ece4a5"
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Get this value from @BotFather in telegram",
+            "value": "6859257176:AAFlVRzc3dfYcxXbfdcBPRFiqvyDo-vcGDw"
             "required": true
         },
         "CHANNEL": {
             "description": "Channel that users must be subscribed in order to use the bot.",
+            "value": "-1001930406310 -1002126461167"
+            "required": false
+            },
+        "BOT_STATS_TEXT": {
+            "description": "Channel that users must be subscribed in order to use the bot.",
+            "value": "Hey there buddy,Join the following channels to get your manga and use me"
+            "required": false
+            },
+        "LOG_CHANNEL": {
+            "description": "Channel that users must be subscribed in order to use the bot.",
+            "value": "-1002015354644"
             "required": false
         },
         "DATABASE_URL_PRIMARY": {
